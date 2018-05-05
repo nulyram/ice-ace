@@ -51,8 +51,15 @@
 
 .btn {
   font-family: futuraptheavy;
-  font-size: 15px;
+  font-size: 20px;
   color: #74e196;
+}
+
+
+.phone {
+  font-family: futuraptdemi;
+  font-size: 22px;
+  margin-right: 20px;
 }
 
 
@@ -256,6 +263,7 @@ font-family: futuraptdemi;
 
 .advantage {
   text-align: center;
+  margin: 15px;
 }
 
 .advantages {
@@ -267,12 +275,19 @@ font-family: futuraptdemi;
   font-size: 40px;
 }
 
-.advantage__text {
+.advantage__title {
   font-size: 20px;
   font-family: futuraptmedium;
 }
 
+.advantage__text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
 .discount {
+  height: 360px;
   text-align: center;
   background-image: url(../imges/discount.jpg);
   background-repeat: no-repeat;
@@ -281,6 +296,8 @@ font-family: futuraptdemi;
   color: #fff
 
 }
+
+
 
 .discount-wrap {
   display: flex;
@@ -297,35 +314,55 @@ font-family: futuraptdemi;
   flex-direction: column;
 }
 
-.discount-list__text {
-  width: 180px;
+.discount-list {
+  font-size: 22px;
+  font-family: futuraptmedium;
+  margin: 0;
 }
 
+.discount-list__text {
+  width: 180px;
+  font-family: futuraptdemi;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.colortext {
+  color: #7ad497
+}
 
 .discount__title {
   font-size: 40px;
 }
 
-
+.btn--white {
+  border: 2px solid #fff;
+  font-family: futuraptheavy;
+  font-size: 20px;
+  text-decoration: none;
+  color: #74e196;
+  padding: 15px 20px 15px 20px;
+}
 
 .team {
   text-align: center;
-  min-height: 900px;
+  min-block-size: 670px;
   background-image: url(../imges/team.jpg);
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
-
 }
 
 .team__title {
+  font-family: futuraptdemi;
   font-size: 40px;
   color: #bbb
 
 }
 
 .team__text {
+  font-family: 'PT Sans', sans-serif;
   font-size: 22px;
   position: relative;
   top: 220px;

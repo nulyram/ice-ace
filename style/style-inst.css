@@ -41,6 +41,65 @@ body {
 
 
 
+
+
+
+
+
+
+.instructors__item {
+  border: 1px solid #000;
+}
+.instructors__item-img {
+  width: 100%;
+  height: auto;
+}
+.instructor {
+  display: none;
+}
+.instructor--shown {
+  display: block;
+}
+.instructors__item--active {
+  border-color: #ff0;
+}
+.js .main-nav__list {
+  display: none;
+  margin: 0;
+}
+@media (min-width: 700px) {
+  .js .main-nav__list {
+  display: block !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tabs__link-list {
   display: flex;
   flex-wrap: no-wrap;
@@ -70,6 +129,7 @@ body {
   margin: auto;
   background-color: rgba(0, 0, 0, .2);
 }
+
 
 .tab__link-description {
   position: absolute;

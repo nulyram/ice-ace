@@ -2,7 +2,15 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Инструкторы</title>
+    <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+  <link rel="stylesheet" href="style/slick.css">
+  <link rel="stylesheet" href="style/jquery-ui.css">
+  <link rel="stylesheet" href="style/jquery-ui.theme.css">
+
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/style-inst.css">
 </head>
@@ -48,6 +56,54 @@
 
       
 
+<!--alter  -->
+<input type="text" id="instructors-search">
+
+  <div class="instructors" id="instructors-list">
+    <a class="instructors__item  instructors__item--active" href="#megaman-01">
+      <img src="imges/tab1.jpg" alt="tab1" class="instructors__item-img">
+      <div class="instructors__item-name">Арсений Петров</div>
+    </a>
+    <a class="instructors__item" href="#megaman-02">
+      <img src="imges/tab2.jpg" alt="" class="instructors__item-img">
+      <div class="instructors__item-name">Никита Павлов</div>
+    </a>
+    <a class="instructors__item" href="#megaman-03">
+      <img src="imges/tab3.jpg" alt="" class="instructors__item-img">
+      <div class="instructors__item-name">Степан Александров</div>
+    </a>
+    <a class="instructors__item" href="#megaman-04">
+      <img src="imges/tab4.jpg" alt="" class="instructors__item-img">
+      <div class="instructors__item-name">Константин Константиноольский</div>
+    </a>
+    <a class="instructors__item" href="#megaman-05">
+      <img src="imges/tab5.jpg" alt="" class="instructors__item-img">
+      <div class="instructors__item-name">Виталий Сергеев</div>
+    </a>
+  </div>
+
+  <hr>
+<!--
+  <div class="instructor  instructor--shown" id="megaman-06">
+    <img src="imges/tab6.jpg" alt="" class="instructor__img">
+    <div class="instructor__name">Иван Артемов</div>
+  </div>
+  <div class="instructor" id="megaman-07">
+    <img src="imges/tab7.jpg" alt="" class="instructor__img">
+    <div class="instructor__name">Петр Иванов</div>
+  </div>
+  <div class="instructor" id="megaman-08">
+    <img src="imges/tab8.jpg" alt="" class="instructor__img">
+    <div class="instructor__name">Андрей Степанов</div>
+  </div>
+  <div class="instructor" id="megaman-09">
+    <img src="imges/tab9.jpg" alt="" class="instructor__img">
+    <div class="instructor__name">Данила Алексеев</div>
+  </div>
+  <div class="instructor" id="megaman-010">
+    <img src="imges/tab10.jpg" alt="" class="instructor__img">
+    <div class="instructor__name">Дмитрий Егоров</div>
+  </div>
 
 
 <!-- делали на занятиях-->
@@ -213,5 +269,11 @@
 
 
 </footer>
+
+  <script src="scripts/js/jquery-3.3.1.min.js"></script>
+  <script src="scripts/js/slick.min.js"></script>
+  <script src="scripts/js/jquery-ui.min.js"></script>
+  <script src="scripts/js/jquery.validate.min.js"></script>
+  <script src="scripts/js/script.js"></script>
 </body>
 </html>
